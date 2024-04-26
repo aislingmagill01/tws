@@ -1,0 +1,203 @@
+{
+    "client_details":[
+      {
+        "client_user_id": "001",
+        "username": "squinn",
+        "password": "squinn001",
+        "First Name": "Shane",
+        "Surame": "Quinn",
+        "Date of Birth": "23/04/1988",
+        "Contact":{
+            "Address": "4 Merrylane Coltstown",
+            "Phone Number": "07845637213",
+            "Email Address": "shane.q@example.com"
+        },
+        "Gender": "Male"
+     },
+    {
+        "client_user_id": "002",
+        "username": "aoshea",
+        "password": "aoshea002",
+        "First Name": "Andrea",
+        "Surame": "O'Shea",
+        "Date of Birth": "08/09/1996",
+        "Contact":{
+            "Address": "101 Charming Hill",
+            "Phone Number": "07515246781",
+            "Email Address": "andrea.o@example.com"
+        },
+        "Gender": "Female"
+    },
+    {
+        "client_user_id": "003",
+        "username": "rmurphy",
+        "password": "rmurphy003",
+        "First Name": "Ryan",
+        "Surame": "Murphy",
+        "Date of Birth": "11/10/2000",
+        "Contact":{
+            "Address": "65  Sherry Street",
+            "Phone Number": "07723628139",
+            "Email Address": "ryan.m@example.com"
+        },
+        "Gender": "Male" 
+    },
+    {
+        "client_user_id": "004",
+        "username": "hsmyth",
+        "password": "hsmyth004",
+        "First Name": "Hannah",
+        "Surame": "Smyth",
+        "Date of Birth": "28/02/1976",
+        "Contact":{
+            "Address": "15 Long Lane Road",
+            "Phone Number": "08567382761",
+            "Email Address": "hannah.s@example.com"
+        },
+        "Gender": "Female"
+    },
+    {
+        "client_user_id": "005",
+        "username": "shayes",
+        "password": "shayes005",
+        "First Name": "Shauna",
+        "Surame": "Hayes",
+        "Date of Birth": "01/12/1970",
+        "Address": "87 Church Lane",
+        "Phone Number": "07896523781",
+        "Email Address": "shauna.h@example.com",
+        "Gender": "Female"
+    }
+ ],
+ 
+    "bookings": 
+    [
+    {
+        "booking_id": "001",
+        "client_user_id": "004",
+        "Full_Name": "Hannah Smyth",
+        "Email": "hannah.s@example.com",
+        "Date": "04/11/2024",
+        "Solicitor": "Shannon Fegan",
+        "service_name": "Family"
+    },
+    {
+        "booking_id": "002",
+        "client_user_id": "002",
+        "Full_Name": "Andrea O Shea",
+        "Email": "andrea.o@example.com",
+        "Date": "23/05/2024",
+        "Solicitor": "Niall Clinton",
+        "service_name": "Criminal"
+    },
+    {
+        "booking_id": "003",
+        "client_user_id": "005",
+        "Full_Name": "Shauna Hayes",
+        "Email": "shauna.h@example.com",
+        "Date": "11/09/2024",
+        "Solicitor": "Shannon Fegan",
+        "service_name": "Legal"
+    }
+],
+
+"upload_file":[
+{
+    "file_id": "001",
+    "filename": "File1_Andrea",
+    "client_user_id": "002",
+    "type": "file"
+
+},
+{
+    "file_id": "002",
+    "filename": "File2_Andrea",
+    "client_user_id": "002",
+    "type": "file"
+},
+{
+    "file_id": "003",
+    "filename": "File1_Hannah",
+    "client_user_id": "004",
+    "type": "file"
+}
+
+],
+
+"invoice_client":[
+    {
+        "invoice_id": "001",
+        "Date": "09/09/2023",
+        "Invoice Amount": "£70.89",
+        "client_user_id": "002"
+    },
+    {
+        "invoice_id": "002",
+        "Date": "29/12/2023",
+        "Invoice Amount": "£109.61",
+        "client_user_id": "001"
+    },
+    {
+        "invoice_id": "003",
+        "Date": "24/03/2024",
+        "Invoice Amount": "£390.55",
+        "client_user_id": "003"
+    },
+    {
+        "invoice_id": "004",
+        "Date": "01/06/2023",
+        "Invoice Amount": "£45.99",
+        "client_user_id": "004"
+    },
+    {
+        "invoice_id": "005",
+        "Date": "11/04/2023",
+        "Invoice Amount": "£441.53",
+        "client_user_id": "004"
+    }
+],
+
+"client_reviews":[
+{
+    "reviewer_name": "Hannah Smyth",
+    "review_text": "Very helpful",
+    "service_name": "Legal",
+    "feedback": "5 Stars"
+},
+{
+    "reviewer_name": "Andrea O Shea",
+    "review_text": "Top Class",
+    "service_name": "Criminal",
+    "feedback": "5 Stars"
+},
+{
+    "reviewer_name": "Tony Brown",
+    "review_text": "I would recommend this office",
+    "service_name": "Family",
+    "feedback": "3 Stars"
+},
+{
+    "reviewer_name": "Mark Green",
+    "review_text": "Could be more helpful",
+    "service_name": "Legal",
+    "feedback": "3 Stars"
+}
+
+], 
+
+"services":[
+    {
+        "service_name": "Legal",
+        "service_info": "This is a service about legal law"
+    },
+    {
+        "service_name": "Criminal",
+        "service_info": "This is a service about criminal law"
+    },
+    {
+        "service_name": "Family",
+        "service_info": "This is a service about family law"
+    }
+]
+    
+}
